@@ -49,6 +49,8 @@ class PrefixCodeTree:
                 node = self.root
         return message
 
+        
+'''
 # test.py
 codebook = {
     'x1': [0],
@@ -56,7 +58,6 @@ codebook = {
     'x3': [1,0,1],
     'x4': [1,1]
 }
-'''
 codeTree = PrefixCodeTree() # create a prefix code tree `codeTree`
 
 # Initialize codeTree with codebook
