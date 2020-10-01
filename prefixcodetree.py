@@ -56,7 +56,7 @@ codebook = {
     'x3': [1,0,1],
     'x4': [1,1]
 }
-
+'''
 codeTree = PrefixCodeTree() # create a prefix code tree `codeTree`
 
 # Initialize codeTree with codebook
@@ -65,3 +65,4 @@ for symbol in codebook:
 
 message = codeTree.decode(b'\xd2\x9f\x20', 21)
 print(message)
+'''
